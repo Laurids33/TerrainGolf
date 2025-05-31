@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class BuildAllPlatforms
 {
-    private static string[] scenes = { "Assets/Scenes/SampleScene.unity" };
+    private static string[] scenes = {
+        "Assets/Scenes/Terrain1.unity",
+        "Assets/Scenes/Terrain2.unity"
+    };
     static string gameName => Application.productName;
     static string version = Application.version;
 
