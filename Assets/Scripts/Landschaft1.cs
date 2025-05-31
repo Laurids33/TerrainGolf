@@ -1,12 +1,13 @@
 using UnityEngine;
 
-public class Landschaft : MonoBehaviour
+public class Landschaft1 : MonoBehaviour
 {
+    public int aufloesung;
     void Start()
     {
         Terrain terrainKomponente = GetComponent<Terrain>();
         TerrainData terrainDaten = terrainKomponente.terrainData;
-        int aufloesung = terrainDaten.heightmapResolution;
+        aufloesung = terrainDaten.heightmapResolution;
         float[,] hMap = new float[aufloesung, aufloesung];
 
         // Drei Ebenen

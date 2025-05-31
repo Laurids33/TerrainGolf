@@ -755,6 +755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   schlagAnzeige: {fileID: 490957778}
+  landschaft1: {fileID: 1320363238}
 --- !u!1 &1320363237
 GameObject:
   m_ObjectHideFlags: 0
@@ -786,6 +787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d0ce536683e3889796d8f7dfa649b50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  aufloesung: 0
 --- !u!154 &1320363239
 TerrainCollider:
   m_ObjectHideFlags: 0
